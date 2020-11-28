@@ -1,0 +1,22 @@
+نسح الديركتورى 
+sudo cp  -R /home/ubuntu/ecomerce-paypal/ /opt/
+
+......................................................
+مسح الn node-module
+sudo rm -rf /home/ubuntu/ecomerce-paypal/node_modules/
+
+......................................................
+تغير ال permitions -- to -rwxr-xr-x 
+error   permition access denied
+
+sudo chmod 777 /opt/ecomerce-paypal/bin/www
+
+
+ls -ld /var/www/folder   -----> check permition again 
+
+notic : you should to follow directory
+
+
+........................................................... 
+
+df -dl    harddisk partitions size

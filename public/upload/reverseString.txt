@@ -1,0 +1,14 @@
+
+function reverseString(word) {
+
+// var word = "Mary had a little lamb"
+var splitWord = word.split(" ");
+
+var reverseArry = splitWord.reverse();
+var afterJoin = reverseArry.join(" ")
+console.log(afterJoin);
+
+return afterJoin;
+}
+
+reverseString("Mary had a little lamb");
